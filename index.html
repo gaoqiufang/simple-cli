@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/lib/hcharts/highcharts.css">
+    <!-- 主题可以不引，看需求，更多主题官方有 -->
+    <link rel="stylesheet" href="style/lib/hcharts/themes/dark-unica.css">
+</head>
+<body>
+<ul id="box">
+
+</ul>
+
+<div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+
+
+
+<script type="text/javascript" src="js/config.js"></script>
+<script type="text/javascript" src="js/lib/require.js"></script>
+<script>
+require(['index'], function(module) {
+    module.start();
+});
+</script>
+</body>
+</html>
